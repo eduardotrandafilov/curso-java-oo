@@ -14,9 +14,9 @@ public class Carro {
 	}
 
 	int calcularIdadeCarro(int dataCarro) {
+		return dataCarro;
 		
-		//ajustar
-		int idade = new Date().
+		//incluir codigo
 	}
 
 }
