@@ -1,4 +1,4 @@
-package desafiopoomod1;
+package desafio;
 
 public class Pessoa {
 	void exibeMsg() {
