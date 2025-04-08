@@ -1,6 +1,6 @@
 package desafio;
 
-import java.util.Date;
+import java.util.Calendar;
 
 public class Carro {
 	String modelo;
@@ -13,10 +13,8 @@ public class Carro {
 		System.out.println("Ano " + ano);
 	}
 
-	int calcularIdadeCarro(int dataCarro) {
-		return dataCarro;
-		
-		//incluir codigo
+	int calcularIdade() {
+      return 2023 - ano;
 	}
 
 }

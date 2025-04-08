@@ -25,5 +25,12 @@ public class Principal {
 		carro.ano = 1980;
 		
 		carro.exibirFichaTecnica();
+	    System.out.println(carro.calcularIdade());
+	    
+	    Aluno aluno = new Aluno();
+	    aluno.nome = "Eduardo";
+	    aluno.idade= 20;
+	    aluno.exibirInformações();
+	    
 	}
 }
