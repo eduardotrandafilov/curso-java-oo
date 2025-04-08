@@ -1,7 +1,5 @@
 package desafio;
 
-import java.util.Calendar;
-
 public class Carro {
 	String modelo;
 	String cor;
@@ -14,7 +12,7 @@ public class Carro {
 	}
 
 	int calcularIdade() {
-      return 2023 - ano;
+		return 2023 - ano;
 	}
 
 }

@@ -4,21 +4,21 @@ public class Musica {
 	String titulo;
 	String artista;
 	int anoLancamento;
-	double avaliacao;
+	double somaDasAvaliacoes;
 	int numAvaliacoes;
-	
+
 	void exibeFichaTecnica() {
-		System.out.println("Titulo "+titulo);
-		System.out.println("Artista "+artista);
-		System.out.println("AnoLancamento "+anoLancamento);
+		System.out.println("Titulo " + titulo);
+		System.out.println("Artista " + artista);
+		System.out.println("AnoLancamento " + anoLancamento);
 	}
 
-	void avaliar(double nota) {
-		avaliacao += nota;
+	void avalia(double nota) {
+		somaDasAvaliacoes += nota;
 		numAvaliacoes++;
 	}
-	
-	double calcularMediaAvaliacao() {
-		return avaliacao/numAvaliacoes;
+
+	double pegaMedia() {
+		return somaDasAvaliacoes / numAvaliacoes;
 	}
 }

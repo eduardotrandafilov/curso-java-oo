@@ -1,7 +1,7 @@
 package desafio;
 
 public class Pessoa {
-	void exibeMsg() {
+	void saudacao() {
 		System.out.println("Olá, mundo!");
 	}
 }
